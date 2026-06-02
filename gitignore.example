@@ -1,0 +1,17 @@
+# Excluir directorios ocultos de ejecucion de Terraform
+.terraform/
+
+# Excluir archivos de estado local que contienen el inventario real de recursos
+*.tfstate
+*.tfstate.*
+
+# Excluir archivos de registro de caidas del sistema
+crash.log
+
+# Excluir archivos de definicion de variables con datos locales o secretos
+*.tfvars
+*.tfvars.json
+
+# Excluir archivos temporales o de configuracion de editores de texto (OS específicos)
+.DS_Store
+Thumbs.db
